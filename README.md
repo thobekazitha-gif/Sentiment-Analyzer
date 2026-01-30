@@ -1,6 +1,6 @@
 # Sentiment Analysis Dashboard
 
-## Tech Career Accelerator – CAPACITI
+## Group Project (Logic League)
 
 **Program:** Tech Career Accelerator (CAPACITI)  
 **Project Type:** Interactive NLP Dashboard  
