@@ -1,66 +1,110 @@
-## 🚀 View Live Demo  
-[View Live Demo](https://logic-league.github.io/Logic-League-Sentiment-Analyzer/)
-# 🧠 Sentiment Analyzer Dashboard
+# Sentiment Analysis Dashboard
 
-An interactive web application that analyzes **sentiment** and **emotional tone** in text data, customer reviews, social media posts, and other text content using **AI-powered analysis**.
+## Tech Career Accelerator – CAPACITI
 
----
+**Program:** Tech Career Accelerator (CAPACITI)  
+**Project Type:** Interactive NLP Dashboard  
+**Sector/Application:** Text Analytics / Customer Insights  
+**Team Size:** Individual / Group Project  
 
-## ✨ Features
-
-- **Real-time Text Analysis:** Instant sentiment analysis with confidence scores  
-- **Emotion Breakdown:** Detailed emotional analysis including joy, sadness, anger, fear, surprise, and trust  
-- **Visual Analytics:** Interactive charts showing sentiment distribution over time  
-- **Analysis History:** Track and review previous analyses  
-- **Sample Text Support:** Quick testing with pre-loaded sample texts  
-- **Modern UI:** Clean, responsive design with gradient backgrounds and smooth animations  
+🔗 **Deployed Application Link:**  
+[Sentiment Analysis Dashboard](https://c0qai4ygity3.trickle.host/)
 
 ---
 
-## 🧩 How to Use
+## Project Overview
 
-1. **Enter Text:** Type or paste text content in the analysis textarea (up to 2000 characters)  
-2. **Load Samples:** Use sample texts for quick testing  
-3. **Analyze:** Click **"Analyze Sentiment"** to get AI-powered insights  
-4. **View Results:** See detailed sentiment scores, confidence levels, and emotion breakdowns  
-5. **Track History:** Monitor analysis trends in the sidebar analytics panel  
+The **Sentiment Analysis Dashboard** is an interactive system designed to analyze the emotional tone of text data. Users can input text directly or upload files to evaluate sentiment across customer reviews, social media posts, or other textual content. The dashboard provides multi-class sentiment classification (positive, negative, neutral), confidence scores, keyword extraction, and comparative analysis between multiple texts or sources.
 
 ---
 
-## ⚙️ Technical Details
+## Objectives
 
-- **Framework:** React 18 with modern hooks  
-- **Styling:** TailwindCSS with custom design variables  
-- **Charts:** Chart.js for data visualization  
-- **Icons:** Lucide icon library  
-- **AI Integration:** Custom sentiment analysis using AI agents  
-
----
-
-## 📊 Analysis Output
-
-Each analysis provides:
-
-- **Sentiment:** Positive, negative, or neutral classification  
-- **Score:** Numerical value from `-1` (most negative) to `+1` (most positive)  
-- **Confidence:** Analysis confidence percentage (0–100%)  
-- **Emotions:** Six-emotion breakdown with individual scores  
+- Enable sentiment classification for individual and batch text data  
+- Provide confidence scoring and highlight key sentiment-driving terms  
+- Visualize sentiment distribution and comparative analysis  
+- Explain classification decisions to help users understand why a text received a specific sentiment  
+- Export analysis results in multiple formats (CSV, JSON, PDF)  
 
 ---
 
-## 💡 Use Cases
+## Features
 
-- Customer feedback analysis  
-- Social media monitoring  
-- Product review insights  
-- Content moderation  
-- Market research  
-- Customer support optimization  
+### Core Features
+- **Text Input:** Manual entry or file upload  
+- **Multi-class Sentiment Analysis:** Positive, negative, neutral  
+- **Confidence Scoring:** Shows probability of each classification  
+- **Keyword Extraction:** Highlights words driving sentiment  
+- **Batch Processing:** Analyze multiple texts efficiently  
+- **Comparative Analysis:** Compare sentiment across different data sources  
+- **Interactive Visualizations:** Graphs showing sentiment distribution  
+- **Explanations:** Highlights reasons behind sentiment classification  
+- **Export Options:** CSV, JSON, PDF  
 
 ---
 
-## 🌐 Live Demo
+## Technical Specifications
 
-[**View the Live Demo**](https://amandafeliciangwenya-stack.github.io/Sentiment-Analyzer/)  
-or visit the GitHub repository:  
-[**Logic-League/Sentiment-Analyzer**](https://github.com/Logic-League/Logic-League-Sentiment-Analyzer)
+- **NLP API Integration:** Hugging Face, AWS Comprehend, or equivalent  
+- **Frontend:** Streamlit or Gradio for responsive, interactive web interface  
+- **Error Handling:** Detects API failures and invalid inputs  
+- **Batch Processing:** Efficient handling of multiple texts  
+- **Documentation:** Clear notes on API limitations, confidence thresholds, and implementation challenges  
+
+---
+
+## Implementation Details
+
+### User Flow
+1. User inputs text manually or uploads a text file  
+2. AI classifies sentiment and calculates confidence scores  
+3. Dashboard displays keyword highlights and sentiment visualizations  
+4. User can compare multiple datasets and export results  
+5. Explanations show which terms influenced sentiment classification  
+
+### Technical Stack
+- **Frontend:** Streamlit / Gradio  
+- **Backend/AI:** NLP API (Hugging Face, AWS Comprehend, etc.)  
+- **Storage:** Temporary local storage for uploaded data  
+- **Visualization:** Matplotlib, Plotly, or built-in Streamlit/Gradio charts  
+
+---
+
+## Deliverables
+
+- **GitHub Repository:** Complete source code with setup instructions  
+- **Deployed Application:** [Sentiment Analysis Dashboard](https://c0qai4ygity3.trickle.host/)  
+- **Accuracy Report:**  
+  - Analysis of at least 50 sample texts  
+  - Confusion matrix and performance metrics  
+  - Discussion of API limitations (300-500 words)  
+- **Demo Video:** 3-minute walkthrough highlighting key features  
+- **Documentation:**  
+  - API selection rationale  
+  - Implementation challenges  
+  - User guide with examples  
+
+---
+
+## Error Handling & Validation
+
+- Validates text input and file uploads  
+- Handles API errors and rate limits gracefully  
+- Alerts users for invalid or empty text submissions  
+- Ensures exported data formats are correctly generated  
+
+---
+
+## Evaluation Alignment
+
+- Functionality and accuracy of sentiment analysis  
+- Quality and clarity of visualizations and UI  
+- Code organization and documentation completeness  
+- Technical depth in accuracy analysis and comparative reporting  
+- Innovation beyond basic requirements (e.g., keyword extraction, explanations)  
+
+---
+
+## Conclusion
+
+The **Sentiment Analysis Dashboard** provides a robust tool for analyzing text sentiment with visual insights and explanations. It allows users to gain a deeper understanding of emotional tone in textual data while providing batch processing, export options, and multi-class analysis in an interactive, user-friendly interface.
